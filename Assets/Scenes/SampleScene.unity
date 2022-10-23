@@ -621,8 +621,12 @@ PrefabInstance:
       value: 9.5
       objectReference: {fileID: 0}
     - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
+      propertyPath: controlPitchFactor
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: positionPitchFactor
-      value: -4
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6615103363655046991, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_Name
