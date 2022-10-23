@@ -616,6 +616,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519895769}
     m_Modifications:
+    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
+      propertyPath: yRange
+      value: 9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
+      propertyPath: positionPitchFactor
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 6615103363655046991, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_Name
       value: Player Ship
@@ -642,15 +650,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6618407120938903449, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6618407120938903449, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6618407120938903449, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6618407120938903449, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
