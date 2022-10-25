@@ -478,22 +478,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 915693555175622327, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 915693555175622327, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9986295
-      objectReference: {fileID: 0}
-    - target: {fileID: 915693555175622327, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.052335896
-      objectReference: {fileID: 0}
-    - target: {fileID: 915693555175622327, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 915693555602575636, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
       propertyPath: m_Name
       value: Player Rig
@@ -541,10 +525,6 @@ PrefabInstance:
     - target: {fileID: 915693555602575642, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 360.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 6299546704778103901, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
-      propertyPath: positionPitchFactor
-      value: -2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
