@@ -10,9 +10,7 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -15f;
-
     [SerializeField] float positionYawFactor = 2f;
-
     [SerializeField] float controlRollFactor = -20f;
 
     float xThrow;
@@ -23,6 +21,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessRotation()
@@ -52,4 +51,18 @@ public class PlayerControls : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
     }
+
+    void ProcessFiring()
+    {
+        // if pushing fire button
+        if (Input.GetButton("Fire1"))
+        {
+            // then print "shooting"
+            Debug.Log("Shooting");
+        }
+
+
+        // else don't print "shooting"
+    }
+
 }
