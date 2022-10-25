@@ -61,6 +61,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlSpeed: 30
   xRange: 10
+  yRange: 7
+  positionPitchFactor: -2
+  controlPitchFactor: -15
+  positionYawFactor: 2
+  controlRollFactor: -20
 --- !u!1001 &3219305450597402813
 PrefabInstance:
   m_ObjectHideFlags: 0
