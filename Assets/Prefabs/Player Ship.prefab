@@ -76,8 +76,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4612493454620981265}
-  - {fileID: 2157881258092142366}
   - {fileID: 5679727640561506828}
+  - {fileID: 2157881258092142366}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -96,6 +96,7 @@ MonoBehaviour:
   controlSpeed: 30
   xRange: 10
   yRange: 7
+  lasers: []
   positionPitchFactor: -2
   controlPitchFactor: -15
   positionYawFactor: 2
@@ -109,7 +110,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 367085281393295731, guid: 7070f677685021746b55c5862d6607e9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 367085281393295731, guid: 7070f677685021746b55c5862d6607e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -405,7 +406,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 367085281393295731, guid: 7070f677685021746b55c5862d6607e9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 367085281393295731, guid: 7070f677685021746b55c5862d6607e9, type: 3}
       propertyPath: m_LocalPosition.x
