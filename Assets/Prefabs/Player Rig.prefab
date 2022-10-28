@@ -145,50 +145,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 915693555602575642}
     m_Modifications:
-    - target: {fileID: 2157881258092142366, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2157881258092142366, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.53
-      objectReference: {fileID: 0}
-    - target: {fileID: 2157881258092142366, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: xRange
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: yRange
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: lasers.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: positionYawFactor
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: positionPitchFactor
-      value: -2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: lasers.Array.data[0]
-      value: 
-      objectReference: {fileID: 8807139790997749289}
-    - target: {fileID: 3174797023193583052, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: lasers.Array.data[1]
-      value: 
-      objectReference: {fileID: 2961426105871645499}
-    - target: {fileID: 5943133105332157098, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-      propertyPath: m_Name
-      value: Laser Right
-      objectReference: {fileID: 0}
     - target: {fileID: 6615103363655046991, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
       propertyPath: m_Name
       value: Player Ship
@@ -242,15 +198,5 @@ PrefabInstance:
 --- !u!4 &2358223182925227528 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6618407120938903449, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-  m_PrefabInstance: {fileID: 8891048256761741713}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2961426105871645499 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5943133105332157098, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
-  m_PrefabInstance: {fileID: 8891048256761741713}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8807139790997749289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 97504356823416760, guid: 658c7cfdb63ebb445912f4dd179a5d28, type: 3}
   m_PrefabInstance: {fileID: 8891048256761741713}
   m_PrefabAsset: {fileID: 0}

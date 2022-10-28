@@ -8,6 +8,9 @@ public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float loadDelay = 1f;
 
+    [SerializeField] ParticleSystem crashVFX;
+    [SerializeField] GameObject shipParts;
+
     void OnTriggerEnter(Collider other)
     {
         StartCrashSequence();
@@ -15,6 +18,9 @@ public class CollisionHandler : MonoBehaviour
 
     void StartCrashSequence()
     {
+        shipParts.SetActive(false);
+        crashVFX.Play();
+        GetComponent<BoxCollider>().enabled = false;
         GetComponent<PlayerControls>().enabled = false;
         Invoke("ReloadLevel", loadDelay);
     }
@@ -24,5 +30,4 @@ public class CollisionHandler : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
-   
 }
