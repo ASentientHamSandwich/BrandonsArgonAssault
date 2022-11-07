@@ -14,19 +14,19 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
+  m_Fog: 1
+  m_FogColor: {r: 0.22075468, g: 0.35742968, b: 1, a: 1}
+  m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_LinearFogEnd: 2000
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3e5399bd195de7649b874f58c1b9f8a3, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.5795507, g: 0.63392705, b: 1.0134653, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -355,7 +355,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6debf61b3519fad47b46a4d76cb1f2ed, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.514
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -620,7 +620,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131857476 stripped
 GameObject:
@@ -698,7 +698,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3020319199687989778, guid: 9ad68b4cb1ceb7440a468835d88e3b76, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3020319199687989778, guid: 9ad68b4cb1ceb7440a468835d88e3b76, type: 3}
       propertyPath: m_LocalPosition.x
@@ -824,7 +824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 108.9
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -832,31 +832,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8754261
+      value: 0.81873804
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.40821788
+      value: 0.36987707
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.23456968
+      value: 0.406848
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.10938163
+      value: -0.16532917
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 50
+      value: 47.748
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -30
+      value: 53.989
       objectReference: {fileID: 0}
     - target: {fileID: 4847291470610522070, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 2.578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847291470610522071, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}
+      propertyPath: m_Intensity
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7972e2692062fbb438fe72ceb8a7e0c3, type: 3}

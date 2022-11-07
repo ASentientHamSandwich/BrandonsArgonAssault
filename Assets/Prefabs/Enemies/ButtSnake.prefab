@@ -97,10 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae139c53042381242b1cdefead4a9042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 4429440142191175087, guid: edaad03f676d26e41a535af416e9c07e, type: 3}
+  deathFX: {fileID: 4429440142191175087, guid: edaad03f676d26e41a535af416e9c07e, type: 3}
   hitVFX: {fileID: 4429440142191175087, guid: bbeca51b26906164e9ceb60dd18d2fbe, type: 3}
-  parent: {fileID: 0}
-  scorePerHit: 75
+  scoreValue: 100
   hitPoints: 10
 --- !u!1 &458707569645051994
 GameObject:
