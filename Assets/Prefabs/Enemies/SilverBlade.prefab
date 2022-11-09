@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429440142191175087, guid: edaad03f676d26e41a535af416e9c07e, type: 3}
   hitVFX: {fileID: 4429440142191175087, guid: bbeca51b26906164e9ceb60dd18d2fbe, type: 3}
-  scoreValue: 100
+  scoreValue: 75
   hitPoints: 2
 --- !u!1 &1529429524459233266
 GameObject:
