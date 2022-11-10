@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 149982967359694106}
   - component: {fileID: 159669488166387774}
   - component: {fileID: 6324629088703418510}
+  - component: {fileID: 1401486983}
   m_Layer: 0
   m_Name: ButtSnake
   m_TagString: Untagged
@@ -101,6 +102,26 @@ MonoBehaviour:
   hitVFX: {fileID: 4429440142191175087, guid: bbeca51b26906164e9ceb60dd18d2fbe, type: 3}
   scoreValue: 800
   hitPoints: 30
+--- !u!95 &1401486983
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173038847939787182}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &458707569645051994
 GameObject:
   m_ObjectHideFlags: 0

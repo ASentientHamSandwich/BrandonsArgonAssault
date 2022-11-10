@@ -1055,7 +1055,7 @@ MonoBehaviour:
   deathFX: {fileID: 4429440142191175087, guid: edaad03f676d26e41a535af416e9c07e, type: 3}
   hitVFX: {fileID: 4429440142191175087, guid: bbeca51b26906164e9ceb60dd18d2fbe, type: 3}
   scoreValue: 300
-  hitPoints: 10
+  hitPoints: 8
 --- !u!95 &993236201
 Animator:
   serializedVersion: 4
