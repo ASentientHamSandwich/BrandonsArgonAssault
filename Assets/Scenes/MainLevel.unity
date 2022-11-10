@@ -2219,6 +2219,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1492899722889643750, guid: 8d73132930e37fc4189be7e3329f2f77, type: 3}
+      propertyPath: m_text
+      value: 'Admiral Quackbar
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3318175807883785847, guid: 8d73132930e37fc4189be7e3329f2f77, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 42de63ed03cde7b40b9259034388fae4, type: 3}
     - target: {fileID: 8872071635412516833, guid: 8d73132930e37fc4189be7e3329f2f77, type: 3}
       propertyPath: m_Name
       value: Canvas
