@@ -415,12 +415,16 @@ PlayableDirector:
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:
+    - 9573baa147e632f40a93617be354619c: {fileID: 330083047}
     - 8b45022dc34324b4e8d836d5c44a5568: {fileID: 330083047}
     - 46bc6ccf805aac642a30f5da01cd6233: {fileID: 941601655}
+    - 631360253c9ff8a45b4fa463b4a3fb31: {fileID: 330083047}
+    - 9b7030b18562fe141959e6a85338356d: {fileID: 330083047}
     - dc2202b6d6613504bac3625a4baac5ae: {fileID: 2131857476}
     - c2f9d324d799b15489ae8d630f8995d3: {fileID: 2131857476}
     - 6471b1d2a52ee9845bd14510062124a0: {fileID: 1739064421}
     - 87f7d6750dedd984a90e74117703086f: {fileID: 983486613}
+    - 9cfc2c48125d69149bf3f9ac07dec646: {fileID: 330083047}
     - 69c0dfeefe29a224695de2ed751c2e6d: {fileID: 1588311084}
     - 00640fd4bc970504cb6647d085128a2e: {fileID: 471698540}
     - 8792ed97f4bf80c4fb648fe48e39a53d: {fileID: 2034787116}
@@ -477,7 +481,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6debf61b3519fad47b46a4d76cb1f2ed, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
