@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.51490337, g: 0.56345385, b: 0.9025837, a: 1}
+  m_IndirectSpecularColor: {r: 0.49361235, g: 0.5479154, b: 0.89174074, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -421,6 +421,7 @@ PlayableDirector:
     - 631360253c9ff8a45b4fa463b4a3fb31: {fileID: 330083047}
     - 9b7030b18562fe141959e6a85338356d: {fileID: 330083047}
     - dc2202b6d6613504bac3625a4baac5ae: {fileID: 2131857476}
+    - d4b895a240cf7484a893757456fb4522: {fileID: 330083047}
     - c2f9d324d799b15489ae8d630f8995d3: {fileID: 2131857476}
     - 6471b1d2a52ee9845bd14510062124a0: {fileID: 1739064421}
     - 87f7d6750dedd984a90e74117703086f: {fileID: 983486613}
@@ -481,7 +482,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6debf61b3519fad47b46a4d76cb1f2ed, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1767,6 +1768,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 377067485622760840, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 377067485622760840, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
+      propertyPath: m_ShowToolkit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 377067485622760840, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
+      propertyPath: antialiasingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 377067485622760840, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
+      propertyPath: m_ShowCustomSorter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 377067485622760840, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
+      propertyPath: volumeLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 915693555175622321, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 915693555602575636, guid: 806b4377e735c044a9d12d086839cbda, type: 3}
       propertyPath: m_Name
       value: Player Rig
@@ -1999,6 +2024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Post Processing
       objectReference: {fileID: 0}
+    - target: {fileID: 1951930748503919619, guid: 7b8c1b6e4e36b2045be5f3c10ee94c09, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3569179418356372945, guid: 7b8c1b6e4e36b2045be5f3c10ee94c09, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2043,6 +2072,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7262540258828778605, guid: 7b8c1b6e4e36b2045be5f3c10ee94c09, type: 3}
+      propertyPath: isGlobal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262540258828778605, guid: 7b8c1b6e4e36b2045be5f3c10ee94c09, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262540258828778605, guid: 7b8c1b6e4e36b2045be5f3c10ee94c09, type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f6c98dde0717624c91174d121b580ab, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b8c1b6e4e36b2045be5f3c10ee94c09, type: 3}
 --- !u!1001 &4710693552909252602

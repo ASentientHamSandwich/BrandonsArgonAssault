@@ -25,7 +25,7 @@ MonoBehaviour:
     m_Start: 1.8333333333333341
     m_ClipIn: 0
     m_Asset: {fileID: -737561629025569652}
-    m_Duration: 2.3568253968253963
+    m_Duration: 3.583990929705216
     m_TimeScale: 1
     m_ParentTrack: {fileID: -9186000160032432039}
     m_EaseInDuration: 0
@@ -91,10 +91,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Slackbar Image
   - m_Version: 1
-    m_Start: 8.8
-    m_ClipIn: 0
+    m_Start: 9.653333333333334
+    m_ClipIn: 0.16081632653061106
     m_Asset: {fileID: 6194450263028602451}
-    m_Duration: 3.040816326530612
+    m_Duration: 2.880000000000001
     m_TimeScale: 1
     m_ParentTrack: {fileID: -9186000160032432039}
     m_EaseInDuration: 0
@@ -160,10 +160,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Slackbar Image
   - m_Version: 1
-    m_Start: 28.14392290249433
-    m_ClipIn: 0
+    m_Start: 29.087346938775507
+    m_ClipIn: 0.9434240362811757
     m_Asset: {fileID: -879959588865326059}
-    m_Duration: 3.439410430839004
+    m_Duration: 2.4959863945578284
     m_TimeScale: 1
     m_ParentTrack: {fileID: -9186000160032432039}
     m_EaseInDuration: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Slackbar Image
   - m_Version: 1
-    m_Start: 40.7
+    m_Start: 41.928820861678005
     m_ClipIn: 0
     m_Asset: {fileID: -681139999164113886}
     m_Duration: 3.854512471655326
@@ -298,10 +298,79 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Slackbar Image
   - m_Version: 1
-    m_Start: 53.21666666666667
+    m_Start: 52.480975056689346
     m_ClipIn: 0
     m_Asset: {fileID: -2759647896722584739}
-    m_Duration: 4.256303854875284
+    m_Duration: 4.991995464852607
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -9186000160032432039}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Slackbar Image
+  - m_Version: 1
+    m_Start: 21.41666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -2223215500151813355}
+    m_Duration: 1.0666666666666664
     m_TimeScale: 1
     m_ParentTrack: {fileID: -9186000160032432039}
     m_EaseInDuration: 0
@@ -644,6 +713,23 @@ MonoBehaviour:
     m_DisplayName: Wave4
   m_Markers:
     m_Objects: []
+--- !u!114 &-6449281275090557369
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 1cb3852ab4555aa40bd4041e681aae46, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.8
 --- !u!114 &-5213505608162386773
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -782,23 +868,6 @@ MonoBehaviour:
   searchHierarchy: 0
   active: 1
   postPlayback: 2
---- !u!114 &-3784256273927462018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: fe1427514e85c44458ce675ef1cb8d59, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!114 &-3459001180602326835
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -913,10 +982,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.8333333333333333
+    m_Start: 1.8333333333333341
     m_ClipIn: 0
-    m_Asset: {fileID: 3436404794462052552}
-    m_Duration: 2.3568253968253967
+    m_Asset: {fileID: 7764496955877565247}
+    m_Duration: 3.5839909297052155
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3420571283134986920}
     m_EaseInDuration: 0
@@ -980,12 +1049,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VO_Under Attack
+    m_DisplayName: under-aquack-_AudioTrimmer.com_
   - m_Version: 1
-    m_Start: 8.8
+    m_Start: 9.653333333333334
     m_ClipIn: 0
-    m_Asset: {fileID: -3119405527376313229}
-    m_Duration: 3.0408163265306123
+    m_Asset: {fileID: -1898265652215828425}
+    m_Duration: 2.88
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3420571283134986920}
     m_EaseInDuration: 0
@@ -1049,12 +1118,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VO_Get To The Mines
+    m_DisplayName: migrate to canyon-
   - m_Version: 1
-    m_Start: 53.21666666666667
+    m_Start: 21.41666666666667
     m_ClipIn: 0
-    m_Asset: {fileID: 6532077824415423096}
-    m_Duration: 4.256303854875283
+    m_Asset: {fileID: -1218981647617431770}
+    m_Duration: 1.0666666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3420571283134986920}
     m_EaseInDuration: 0
@@ -1118,12 +1187,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VO_You Did It
+    m_DisplayName: duck-_AudioTrimmer.com__1
   - m_Version: 1
-    m_Start: 28.14392290249433
+    m_Start: 29.087346938775507
     m_ClipIn: 0
-    m_Asset: {fileID: -2993481909970064040}
-    m_Duration: 3.4394104308390023
+    m_Asset: {fileID: 604019098489305725}
+    m_Duration: 2.495986394557823
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3420571283134986920}
     m_EaseInDuration: 0
@@ -1187,12 +1256,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VO_Incoming Sector 5
+    m_DisplayName: incoming-enemy-flock-_AudioTrimmer.com__1
   - m_Version: 1
-    m_Start: 40.7
-    m_ClipIn: 0
-    m_Asset: {fileID: -3784256273927462018}
-    m_Duration: 3.8545124716553287
+    m_Start: 41.928820861678005
+    m_ClipIn: 0.02814058956916199
+    m_Asset: {fileID: -6449281275090557369}
+    m_Duration: 3.854512471655328
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3420571283134986920}
     m_EaseInDuration: 0
@@ -1256,7 +1325,76 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VO_Theyre Everywhere
+    m_DisplayName: quackshot-
+  - m_Version: 1
+    m_Start: 52.480975056689346
+    m_ClipIn: 0
+    m_Asset: {fileID: 4474030838277545384}
+    m_Duration: 4.991995464852608
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3420571283134986920}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: defend-the-nest-_AudioTrimmer.com__1
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -1295,23 +1433,6 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &-3119405527376313229
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 3fdc820fc725ef448bd4e838b18cf27e, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!114 &-3061928600251705748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1404,23 +1525,6 @@ MonoBehaviour:
     m_DisplayName: Wave3-1 (1)
   m_Markers:
     m_Objects: []
---- !u!114 &-2993481909970064040
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: b5c19efec281dbc46a779ebf13d676ba, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!114 &-2759647896722584739
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1439,6 +1543,29 @@ MonoBehaviour:
   prefabGameObject: {fileID: 0}
   updateParticle: 1
   particleRandomSeed: 5593
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+--- !u!114 &-2223215500151813355
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset(Clone)
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: d4b895a240cf7484a893757456fb4522
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 8330
   updateDirector: 1
   updateITimeControl: 1
   searchHierarchy: 0
@@ -1536,6 +1663,40 @@ MonoBehaviour:
     m_DisplayName: Wave3
   m_Markers:
     m_Objects: []
+--- !u!114 &-1898265652215828425
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 626b926b99d8790498fb81ab22ea30ed, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.8
+--- !u!114 &-1218981647617431770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 7a9f953acec578049bc31b5f1c6f0782, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.8
 --- !u!114 &-1141798025271789441
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1743,6 +1904,23 @@ MonoBehaviour:
     m_DisplayName: Wave2
   m_Markers:
     m_Objects: []
+--- !u!114 &604019098489305725
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 031349d959f2aab45ace92c1afa94b73, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.8
 --- !u!114 &1199126897003650753
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1812,23 +1990,6 @@ MonoBehaviour:
   searchHierarchy: 0
   active: 1
   postPlayback: 2
---- !u!114 &3436404794462052552
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 093bf07f8629e6244972e6a689e5b3cd, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!74 &3844858603353727984
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -4817,6 +4978,23 @@ MonoBehaviour:
     m_DisplayName: Wave1-1
   m_Markers:
     m_Objects: []
+--- !u!114 &4474030838277545384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: a4cd9245b5961b348b480a71771d92d2, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.8
 --- !u!114 &5443838427079633234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4911,23 +5089,6 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &6532077824415423096
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 029681edb5dc3bc43bae4cc8a6505869, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!114 &7109827169850802825
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4951,6 +5112,23 @@ MonoBehaviour:
   searchHierarchy: 0
   active: 1
   postPlayback: 2
+--- !u!114 &7764496955877565247
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: c183000dac3c09d4abf0ef47acb9cd7b, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.8
 --- !u!114 &8225731679178884596
 MonoBehaviour:
   m_ObjectHideFlags: 1
